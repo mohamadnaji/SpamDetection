@@ -2,7 +2,7 @@ from transformers import BertForSequenceClassification, BertTokenizer
 import torch
 
 model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)
-model.load_state_dict(torch.load('my_model.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('spam_detection.pth', map_location=torch.device('cpu')))
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
@@ -20,6 +20,3 @@ while True:
         print("The message is not spam.")
     else:
         print("The message is spam.")
-
-    if input("You want to continue? Y/N") == 'N':
-        exit(0)
