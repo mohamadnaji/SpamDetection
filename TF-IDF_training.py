@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.svm import LinearSVC
+from sklearn.svm import SVC
 
 from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.naive_bayes import MultinomialNB
@@ -48,7 +49,8 @@ X_train, X_test, y_train, y_test = train_test_split(messages, spams, test_size=0
 pipeline = Pipeline([
     ("tfidf", TfidfVectorizer(preprocessor=text_preprocessing)),
     # ("vectorization", CountVectorizer(preprocessor=text_preprocessing)),
-    ("clf", SGDClassifier())
+    # ("clf", SGDClassifier())
+    ("clf", SVC())
 ])
 # Fitting the pipeline on the training data
 pipeline.fit(X_train, y_train)

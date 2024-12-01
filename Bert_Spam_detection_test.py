@@ -6,7 +6,7 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)
 
 # Load trained model weights
-model.load_state_dict(torch.load('spam_detection.pth'))
+model.load_state_dict(torch.load('models/spam_detection.pth'))
 model.eval()
 
 

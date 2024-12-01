@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adf0a565-f359-42b3-884e-77f0b1acb4d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TF-IDF_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bert_trained_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bert_trained_model_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bert_Spam_detection_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bert_Spam_detection_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bert_trained_model_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF-IDF_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF-IDF_training.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,31 +26,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2c64ZZCIk5Rh6q9xcuZbzqI2oY2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Bert_trained_model (1).executor": "Run",
-    "Python.Bert_trained_model_test (1).executor": "Run",
-    "Python.TF-IDF_training.executor": "Debug",
-    "Python.main.executor": "Run",
-    "Python.main2.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test2.executor": "Debug",
-    "Python.test_model.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/USER/PycharmProjects/SpamDetection"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Bert_trained_model (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bert_trained_model_test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.TF-IDF_training.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.test_model.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects/SpamDetection&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\SpamDetection" />
